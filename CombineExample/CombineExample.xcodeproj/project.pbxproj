@@ -11,6 +11,7 @@
 		BF73F81827C353FA00417F09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73F81727C353FA00417F09 /* ContentView.swift */; };
 		BF73F81A27C353FC00417F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF73F81927C353FC00417F09 /* Assets.xcassets */; };
 		BF73F81D27C353FC00417F09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF73F81C27C353FC00417F09 /* Preview Assets.xcassets */; };
+		BF8BE55327C49F8F001DB039 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8BE55227C49F8F001DB039 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BF73F81727C353FA00417F09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF73F81927C353FC00417F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF73F81C27C353FC00417F09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF8BE55227C49F8F001DB039 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				BF73F81527C353FA00417F09 /* CombineExampleApp.swift */,
 				BF73F81727C353FA00417F09 /* ContentView.swift */,
+				BF8BE55227C49F8F001DB039 /* LoginView.swift */,
 				BF73F81927C353FC00417F09 /* Assets.xcassets */,
 				BF73F81B27C353FC00417F09 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF8BE55327C49F8F001DB039 /* LoginView.swift in Sources */,
 				BF73F81827C353FA00417F09 /* ContentView.swift in Sources */,
 				BF73F81627C353FA00417F09 /* CombineExampleApp.swift in Sources */,
 			);
