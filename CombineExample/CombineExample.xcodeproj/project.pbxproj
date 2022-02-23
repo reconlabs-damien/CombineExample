@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF7055C127C5F5B600E753B2 /* CoinList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7055C027C5F5B600E753B2 /* CoinList.swift */; };
+		BF7055C327C5F6AD00E753B2 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7055C227C5F6AD00E753B2 /* CryptoService.swift */; };
 		BF73F81627C353FA00417F09 /* CombineExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73F81527C353FA00417F09 /* CombineExampleApp.swift */; };
 		BF73F81827C353FA00417F09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73F81727C353FA00417F09 /* ContentView.swift */; };
 		BF73F81A27C353FC00417F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF73F81927C353FC00417F09 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF7055C027C5F5B600E753B2 /* CoinList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinList.swift; sourceTree = "<group>"; };
+		BF7055C227C5F6AD00E753B2 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
 		BF73F81227C353FA00417F09 /* CombineExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF73F81527C353FA00417F09 /* CombineExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineExampleApp.swift; sourceTree = "<group>"; };
 		BF73F81727C353FA00417F09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,10 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				BF73F81527C353FA00417F09 /* CombineExampleApp.swift */,
+				BF7055C027C5F5B600E753B2 /* CoinList.swift */,
 				BF73F81727C353FA00417F09 /* ContentView.swift */,
 				BF8BE55227C49F8F001DB039 /* LoginView.swift */,
 				BF73F81927C353FC00417F09 /* Assets.xcassets */,
 				BF73F81B27C353FC00417F09 /* Preview Content */,
+				BF7055C227C5F6AD00E753B2 /* CryptoService.swift */,
 			);
 			path = CombineExample;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 				BF8BE55327C49F8F001DB039 /* LoginView.swift in Sources */,
 				BF73F81827C353FA00417F09 /* ContentView.swift in Sources */,
 				BF73F81627C353FA00417F09 /* CombineExampleApp.swift in Sources */,
+				BF7055C327C5F6AD00E753B2 /* CryptoService.swift in Sources */,
+				BF7055C127C5F5B600E753B2 /* CoinList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
