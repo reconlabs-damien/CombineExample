@@ -12,7 +12,7 @@ struct CombineExampleApp: App {
     
     var body: some Scene {
         WindowGroup {
-            CoinList()
+            ViewModelExample2()
         }
     }
     

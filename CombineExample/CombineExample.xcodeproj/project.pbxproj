@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF534ACF27C8735C00F6977C /* ViewModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534ACE27C8735C00F6977C /* ViewModelExample.swift */; };
+		BF534AD127C8747800F6977C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534AD027C8747700F6977C /* Post.swift */; };
+		BF534AD327C8793E00F6977C /* ViewModelExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534AD227C8793E00F6977C /* ViewModelExample2.swift */; };
+		BF534AD527C879FF00F6977C /* ViewModelExample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534AD427C879FF00F6977C /* ViewModelExample3.swift */; };
 		BF7055C127C5F5B600E753B2 /* CoinList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7055C027C5F5B600E753B2 /* CoinList.swift */; };
 		BF7055C327C5F6AD00E753B2 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7055C227C5F6AD00E753B2 /* CryptoService.swift */; };
 		BF73F81627C353FA00417F09 /* CombineExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73F81527C353FA00417F09 /* CombineExampleApp.swift */; };
@@ -16,9 +20,16 @@
 		BF8BE55327C49F8F001DB039 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8BE55227C49F8F001DB039 /* LoginView.swift */; };
 		BFABC24C27C7166800439BFF /* ListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFABC24B27C7166800439BFF /* ListExample.swift */; };
 		BFABC24E27C7198F00439BFF /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFABC24D27C7198F00439BFF /* CustomSearchBar.swift */; };
+		F5A84D2085BE8B018CEF86C0 /* Pods_CombineExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCEAA1229E43DE118957722 /* Pods_CombineExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8113456D74CBF5BF7B5940AD /* Pods-CombineExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineExample.debug.xcconfig"; path = "Target Support Files/Pods-CombineExample/Pods-CombineExample.debug.xcconfig"; sourceTree = "<group>"; };
+		BCCEAA1229E43DE118957722 /* Pods_CombineExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombineExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF534ACE27C8735C00F6977C /* ViewModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample.swift; sourceTree = "<group>"; };
+		BF534AD027C8747700F6977C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BF534AD227C8793E00F6977C /* ViewModelExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample2.swift; sourceTree = "<group>"; };
+		BF534AD427C879FF00F6977C /* ViewModelExample3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample3.swift; sourceTree = "<group>"; };
 		BF7055C027C5F5B600E753B2 /* CoinList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinList.swift; sourceTree = "<group>"; };
 		BF7055C227C5F6AD00E753B2 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
 		BF73F81227C353FA00417F09 /* CombineExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +40,7 @@
 		BF8BE55227C49F8F001DB039 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		BFABC24B27C7166800439BFF /* ListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample.swift; sourceTree = "<group>"; };
 		BFABC24D27C7198F00439BFF /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		C528E9C251C5FE92716693E7 /* Pods-CombineExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineExample.release.xcconfig"; path = "Target Support Files/Pods-CombineExample/Pods-CombineExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +48,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A84D2085BE8B018CEF86C0 /* Pods_CombineExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11B972B2BDC9A25B85D45E1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCCEAA1229E43DE118957722 /* Pods_CombineExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E5BC92D039B8FBDF1175D85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8113456D74CBF5BF7B5940AD /* Pods-CombineExample.debug.xcconfig */,
+				C528E9C251C5FE92716693E7 /* Pods-CombineExample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BF73F80927C353FA00417F09 = {
 			isa = PBXGroup;
 			children = (
 				BF73F81427C353FA00417F09 /* CombineExample */,
 				BF73F81327C353FA00417F09 /* Products */,
+				3E5BC92D039B8FBDF1175D85 /* Pods */,
+				11B972B2BDC9A25B85D45E1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +103,10 @@
 				BF7055C227C5F6AD00E753B2 /* CryptoService.swift */,
 				BFABC24B27C7166800439BFF /* ListExample.swift */,
 				BFABC24D27C7198F00439BFF /* CustomSearchBar.swift */,
+				BF534ACE27C8735C00F6977C /* ViewModelExample.swift */,
+				BF534AD027C8747700F6977C /* Post.swift */,
+				BF534AD227C8793E00F6977C /* ViewModelExample2.swift */,
+				BF534AD427C879FF00F6977C /* ViewModelExample3.swift */,
 			);
 			path = CombineExample;
 			sourceTree = "<group>";
@@ -89,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF73F82027C353FC00417F09 /* Build configuration list for PBXNativeTarget "CombineExample" */;
 			buildPhases = (
+				08F7FDA647CC3145B4A3F6CE /* [CP] Check Pods Manifest.lock */,
 				BF73F80E27C353FA00417F09 /* Sources */,
 				BF73F80F27C353FA00417F09 /* Frameworks */,
 				BF73F81027C353FA00417F09 /* Resources */,
+				B55B5EDAFCF79736BABA618A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,16 +186,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08F7FDA647CC3145B4A3F6CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CombineExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B55B5EDAFCF79736BABA618A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CombineExample/Pods-CombineExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CombineExample/Pods-CombineExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CombineExample/Pods-CombineExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF73F80E27C353FA00417F09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BFABC24E27C7198F00439BFF /* CustomSearchBar.swift in Sources */,
+				BF534ACF27C8735C00F6977C /* ViewModelExample.swift in Sources */,
 				BF8BE55327C49F8F001DB039 /* LoginView.swift in Sources */,
 				BF73F81827C353FA00417F09 /* ContentView.swift in Sources */,
+				BF534AD527C879FF00F6977C /* ViewModelExample3.swift in Sources */,
+				BF534AD327C8793E00F6977C /* ViewModelExample2.swift in Sources */,
 				BF73F81627C353FA00417F09 /* CombineExampleApp.swift in Sources */,
 				BF7055C327C5F6AD00E753B2 /* CryptoService.swift in Sources */,
+				BF534AD127C8747800F6977C /* Post.swift in Sources */,
 				BFABC24C27C7166800439BFF /* ListExample.swift in Sources */,
 				BF7055C127C5F5B600E753B2 /* CoinList.swift in Sources */,
 			);
@@ -283,6 +368,7 @@
 		};
 		BF73F82127C353FC00417F09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8113456D74CBF5BF7B5940AD /* Pods-CombineExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +398,7 @@
 		};
 		BF73F82227C353FC00417F09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C528E9C251C5FE92716693E7 /* Pods-CombineExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
