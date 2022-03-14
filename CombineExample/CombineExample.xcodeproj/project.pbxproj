@@ -11,6 +11,7 @@
 		BF534AD127C8747800F6977C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534AD027C8747700F6977C /* Post.swift */; };
 		BF534AD327C8793E00F6977C /* ViewModelExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534AD227C8793E00F6977C /* ViewModelExample2.swift */; };
 		BF534AD527C879FF00F6977C /* ViewModelExample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534AD427C879FF00F6977C /* ViewModelExample3.swift */; };
+		BF5785DF27DF245000EC1164 /* ChapterTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5785DE27DF245000EC1164 /* ChapterTwo.swift */; };
 		BF7055C127C5F5B600E753B2 /* CoinList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7055C027C5F5B600E753B2 /* CoinList.swift */; };
 		BF7055C327C5F6AD00E753B2 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7055C227C5F6AD00E753B2 /* CryptoService.swift */; };
 		BF73F81627C353FA00417F09 /* CombineExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73F81527C353FA00417F09 /* CombineExampleApp.swift */; };
@@ -32,6 +33,7 @@
 		BF534AD027C8747700F6977C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		BF534AD227C8793E00F6977C /* ViewModelExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample2.swift; sourceTree = "<group>"; };
 		BF534AD427C879FF00F6977C /* ViewModelExample3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample3.swift; sourceTree = "<group>"; };
+		BF5785DE27DF245000EC1164 /* ChapterTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterTwo.swift; sourceTree = "<group>"; };
 		BF7055C027C5F5B600E753B2 /* CoinList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinList.swift; sourceTree = "<group>"; };
 		BF7055C227C5F6AD00E753B2 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
 		BF73F81227C353FA00417F09 /* CombineExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +113,7 @@
 				BF534AD227C8793E00F6977C /* ViewModelExample2.swift */,
 				BF534AD427C879FF00F6977C /* ViewModelExample3.swift */,
 				BFEB5E1D27D0A010003BB4F0 /* ProgressView.swift */,
+				BF5785DE27DF245000EC1164 /* ChapterTwo.swift */,
 				BFEB5E1F27D0A641003BB4F0 /* chapterOne.swift */,
 			);
 			path = CombineExample;
@@ -244,6 +247,7 @@
 				BF73F81827C353FA00417F09 /* ContentView.swift in Sources */,
 				BFEB5E2027D0A641003BB4F0 /* chapterOne.swift in Sources */,
 				BF534AD527C879FF00F6977C /* ViewModelExample3.swift in Sources */,
+				BF5785DF27DF245000EC1164 /* ChapterTwo.swift in Sources */,
 				BFEB5E1E27D0A010003BB4F0 /* ProgressView.swift in Sources */,
 				BF534AD327C8793E00F6977C /* ViewModelExample2.swift in Sources */,
 				BF73F81627C353FA00417F09 /* CombineExampleApp.swift in Sources */,
