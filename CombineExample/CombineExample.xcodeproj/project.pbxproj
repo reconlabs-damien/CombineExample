@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF2F9CAB27E1B13400214732 /* ChapterFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2F9CAA27E1B13400214732 /* ChapterFour.swift */; };
 		BF534ACF27C8735C00F6977C /* ViewModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534ACE27C8735C00F6977C /* ViewModelExample.swift */; };
 		BF534AD127C8747800F6977C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534AD027C8747700F6977C /* Post.swift */; };
 		BF534AD327C8793E00F6977C /* ViewModelExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534AD227C8793E00F6977C /* ViewModelExample2.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		8113456D74CBF5BF7B5940AD /* Pods-CombineExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineExample.debug.xcconfig"; path = "Target Support Files/Pods-CombineExample/Pods-CombineExample.debug.xcconfig"; sourceTree = "<group>"; };
 		BCCEAA1229E43DE118957722 /* Pods_CombineExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombineExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2F9CAA27E1B13400214732 /* ChapterFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterFour.swift; sourceTree = "<group>"; };
 		BF534ACE27C8735C00F6977C /* ViewModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample.swift; sourceTree = "<group>"; };
 		BF534AD027C8747700F6977C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		BF534AD227C8793E00F6977C /* ViewModelExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample2.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				BF5785DE27DF245000EC1164 /* ChapterTwo.swift */,
 				BFEB5E1F27D0A641003BB4F0 /* chapterOne.swift */,
 				BFBF033A27E0875100E47DD4 /* ChapterThree.swift */,
+				BF2F9CAA27E1B13400214732 /* ChapterFour.swift */,
 			);
 			path = CombineExample;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				BFBF033B27E0875100E47DD4 /* ChapterThree.swift in Sources */,
 				BFABC24C27C7166800439BFF /* ListExample.swift in Sources */,
 				BF7055C127C5F5B600E753B2 /* CoinList.swift in Sources */,
+				BF2F9CAB27E1B13400214732 /* ChapterFour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
