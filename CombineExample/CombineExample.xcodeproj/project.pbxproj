@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0F56DB27E2EE5B00DD2939 /* ChapterFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F56DA27E2EE5B00DD2939 /* ChapterFive.swift */; };
+		BF0F56DD27E2EE9000DD2939 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F56DC27E2EE9000DD2939 /* KeyboardHandler.swift */; };
 		BF2F9CAB27E1B13400214732 /* ChapterFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2F9CAA27E1B13400214732 /* ChapterFour.swift */; };
 		BF534ACF27C8735C00F6977C /* ViewModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534ACE27C8735C00F6977C /* ViewModelExample.swift */; };
 		BF534AD127C8747800F6977C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534AD027C8747700F6977C /* Post.swift */; };
@@ -31,6 +33,8 @@
 /* Begin PBXFileReference section */
 		8113456D74CBF5BF7B5940AD /* Pods-CombineExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineExample.debug.xcconfig"; path = "Target Support Files/Pods-CombineExample/Pods-CombineExample.debug.xcconfig"; sourceTree = "<group>"; };
 		BCCEAA1229E43DE118957722 /* Pods_CombineExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombineExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0F56DA27E2EE5B00DD2939 /* ChapterFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterFive.swift; sourceTree = "<group>"; };
+		BF0F56DC27E2EE9000DD2939 /* KeyboardHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
 		BF2F9CAA27E1B13400214732 /* ChapterFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterFour.swift; sourceTree = "<group>"; };
 		BF534ACE27C8735C00F6977C /* ViewModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample.swift; sourceTree = "<group>"; };
 		BF534AD027C8747700F6977C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 			children = (
 				BF73F81427C353FA00417F09 /* CombineExample */,
 				BF73F81327C353FA00417F09 /* Products */,
+				BF0F56DC27E2EE9000DD2939 /* KeyboardHandler.swift */,
 				3E5BC92D039B8FBDF1175D85 /* Pods */,
 				11B972B2BDC9A25B85D45E1E /* Frameworks */,
 			);
@@ -121,6 +126,7 @@
 				BFEB5E1F27D0A641003BB4F0 /* chapterOne.swift */,
 				BFBF033A27E0875100E47DD4 /* ChapterThree.swift */,
 				BF2F9CAA27E1B13400214732 /* ChapterFour.swift */,
+				BF0F56DA27E2EE5B00DD2939 /* ChapterFive.swift */,
 			);
 			path = CombineExample;
 			sourceTree = "<group>";
@@ -250,6 +256,7 @@
 				BFABC24E27C7198F00439BFF /* CustomSearchBar.swift in Sources */,
 				BF534ACF27C8735C00F6977C /* ViewModelExample.swift in Sources */,
 				BF8BE55327C49F8F001DB039 /* LoginView.swift in Sources */,
+				BF0F56DD27E2EE9000DD2939 /* KeyboardHandler.swift in Sources */,
 				BF73F81827C353FA00417F09 /* ContentView.swift in Sources */,
 				BFEB5E2027D0A641003BB4F0 /* chapterOne.swift in Sources */,
 				BF534AD527C879FF00F6977C /* ViewModelExample3.swift in Sources */,
@@ -259,6 +266,7 @@
 				BF73F81627C353FA00417F09 /* CombineExampleApp.swift in Sources */,
 				BF7055C327C5F6AD00E753B2 /* CryptoService.swift in Sources */,
 				BF534AD127C8747800F6977C /* Post.swift in Sources */,
+				BF0F56DB27E2EE5B00DD2939 /* ChapterFive.swift in Sources */,
 				BFBF033B27E0875100E47DD4 /* ChapterThree.swift in Sources */,
 				BFABC24C27C7166800439BFF /* ListExample.swift in Sources */,
 				BF7055C127C5F5B600E753B2 /* CoinList.swift in Sources */,

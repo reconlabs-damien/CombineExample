@@ -14,23 +14,7 @@ struct CombineExampleApp: App {
     
     var body: some Scene {
         WindowGroup {
-            TabView {
-                NavigationView {
-                    ChapterThree()
-                }
-            }.tabItem {
-                Image(systemName: "list.bullet")
-                Text("List")
-            }
-            
-            Text("Profile")
-                .tabItem {
-                    Image(systemName: "person")
-                    Text("Profile")
-                }
-                .environment(\.colorScheme, isDarkMode ? .dark : .light)
-                .preferredColorScheme(isDarkMode ? .dark : .light)
-                .accentColor(.primary)
+            ChapterFive()
         }
         
     }
