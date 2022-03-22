@@ -16,6 +16,7 @@
 		BF534AD127C8747800F6977C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534AD027C8747700F6977C /* Post.swift */; };
 		BF534AD327C8793E00F6977C /* ViewModelExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534AD227C8793E00F6977C /* ViewModelExample2.swift */; };
 		BF534AD527C879FF00F6977C /* ViewModelExample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534AD427C879FF00F6977C /* ViewModelExample3.swift */; };
+		BF55F5D927E9934D00D0F075 /* ChapterNine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF55F5D827E9934D00D0F075 /* ChapterNine.swift */; };
 		BF5785DF27DF245000EC1164 /* ChapterTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5785DE27DF245000EC1164 /* ChapterTwo.swift */; };
 		BF7055C127C5F5B600E753B2 /* CoinList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7055C027C5F5B600E753B2 /* CoinList.swift */; };
 		BF7055C327C5F6AD00E753B2 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7055C227C5F6AD00E753B2 /* CryptoService.swift */; };
@@ -26,6 +27,7 @@
 		BF8BE55327C49F8F001DB039 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8BE55227C49F8F001DB039 /* LoginView.swift */; };
 		BFABC24C27C7166800439BFF /* ListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFABC24B27C7166800439BFF /* ListExample.swift */; };
 		BFABC24E27C7198F00439BFF /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFABC24D27C7198F00439BFF /* CustomSearchBar.swift */; };
+		BFBEEB2C27E8448300D1D950 /* ChapterEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBEEB2B27E8448300D1D950 /* ChapterEight.swift */; };
 		BFBF033B27E0875100E47DD4 /* ChapterThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBF033A27E0875100E47DD4 /* ChapterThree.swift */; };
 		BFEB5E1E27D0A010003BB4F0 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEB5E1D27D0A010003BB4F0 /* ProgressView.swift */; };
 		BFEB5E2027D0A641003BB4F0 /* chapterOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEB5E1F27D0A641003BB4F0 /* chapterOne.swift */; };
@@ -44,6 +46,7 @@
 		BF534AD027C8747700F6977C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		BF534AD227C8793E00F6977C /* ViewModelExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample2.swift; sourceTree = "<group>"; };
 		BF534AD427C879FF00F6977C /* ViewModelExample3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample3.swift; sourceTree = "<group>"; };
+		BF55F5D827E9934D00D0F075 /* ChapterNine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterNine.swift; sourceTree = "<group>"; };
 		BF5785DE27DF245000EC1164 /* ChapterTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterTwo.swift; sourceTree = "<group>"; };
 		BF7055C027C5F5B600E753B2 /* CoinList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinList.swift; sourceTree = "<group>"; };
 		BF7055C227C5F6AD00E753B2 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		BF8BE55227C49F8F001DB039 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		BFABC24B27C7166800439BFF /* ListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample.swift; sourceTree = "<group>"; };
 		BFABC24D27C7198F00439BFF /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		BFBEEB2B27E8448300D1D950 /* ChapterEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterEight.swift; sourceTree = "<group>"; };
 		BFBF033A27E0875100E47DD4 /* ChapterThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterThree.swift; sourceTree = "<group>"; };
 		BFEB5E1D27D0A010003BB4F0 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		BFEB5E1F27D0A641003BB4F0 /* chapterOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chapterOne.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				BF0F56DA27E2EE5B00DD2939 /* ChapterFive.swift */,
 				BF49AB2F27E43F3C0029FD85 /* ChapterSeven.swift */,
 				BF49AB3127E444F40029FD85 /* View+Extension.swift */,
+				BFBEEB2B27E8448300D1D950 /* ChapterEight.swift */,
+				BF55F5D827E9934D00D0F075 /* ChapterNine.swift */,
 			);
 			path = CombineExample;
 			sourceTree = "<group>";
@@ -261,12 +267,14 @@
 			files = (
 				BFABC24E27C7198F00439BFF /* CustomSearchBar.swift in Sources */,
 				BF534ACF27C8735C00F6977C /* ViewModelExample.swift in Sources */,
+				BFBEEB2C27E8448300D1D950 /* ChapterEight.swift in Sources */,
 				BF49AB3227E444F40029FD85 /* View+Extension.swift in Sources */,
 				BF8BE55327C49F8F001DB039 /* LoginView.swift in Sources */,
 				BF0F56DD27E2EE9000DD2939 /* KeyboardHandler.swift in Sources */,
 				BF73F81827C353FA00417F09 /* ContentView.swift in Sources */,
 				BFEB5E2027D0A641003BB4F0 /* chapterOne.swift in Sources */,
 				BF534AD527C879FF00F6977C /* ViewModelExample3.swift in Sources */,
+				BF55F5D927E9934D00D0F075 /* ChapterNine.swift in Sources */,
 				BF5785DF27DF245000EC1164 /* ChapterTwo.swift in Sources */,
 				BFEB5E1E27D0A010003BB4F0 /* ProgressView.swift in Sources */,
 				BF534AD327C8793E00F6977C /* ViewModelExample2.swift in Sources */,
