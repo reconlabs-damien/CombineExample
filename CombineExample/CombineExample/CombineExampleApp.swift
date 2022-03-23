@@ -10,11 +10,12 @@ import SwiftUI
 @main
 struct CombineExampleApp: App {
     
-    @AppStorage("isDarkMode") private var isDarkMode = false
+    @StateObject private var wallet = Wallet()
     
     var body: some Scene {
         WindowGroup {
-            ChapterFive()
+            MasterView()
+                .environmentObject(wallet)
         }
         
     }

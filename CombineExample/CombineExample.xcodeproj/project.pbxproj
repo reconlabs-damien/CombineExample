@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF03C3B327EADFAF007AE0F7 /* ChapterTen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03C3B227EADFAF007AE0F7 /* ChapterTen.swift */; };
+		BF03C3B527EAEBFD007AE0F7 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03C3B427EAEBFD007AE0F7 /* Color+Extension.swift */; };
 		BF0F56DB27E2EE5B00DD2939 /* ChapterFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F56DA27E2EE5B00DD2939 /* ChapterFive.swift */; };
 		BF0F56DD27E2EE9000DD2939 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F56DC27E2EE9000DD2939 /* KeyboardHandler.swift */; };
 		BF2F9CAB27E1B13400214732 /* ChapterFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2F9CAA27E1B13400214732 /* ChapterFour.swift */; };
@@ -37,6 +39,8 @@
 /* Begin PBXFileReference section */
 		8113456D74CBF5BF7B5940AD /* Pods-CombineExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineExample.debug.xcconfig"; path = "Target Support Files/Pods-CombineExample/Pods-CombineExample.debug.xcconfig"; sourceTree = "<group>"; };
 		BCCEAA1229E43DE118957722 /* Pods_CombineExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombineExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF03C3B227EADFAF007AE0F7 /* ChapterTen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterTen.swift; sourceTree = "<group>"; };
+		BF03C3B427EAEBFD007AE0F7 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		BF0F56DA27E2EE5B00DD2939 /* ChapterFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterFive.swift; sourceTree = "<group>"; };
 		BF0F56DC27E2EE9000DD2939 /* KeyboardHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
 		BF2F9CAA27E1B13400214732 /* ChapterFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterFour.swift; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 				BF49AB3127E444F40029FD85 /* View+Extension.swift */,
 				BFBEEB2B27E8448300D1D950 /* ChapterEight.swift */,
 				BF55F5D827E9934D00D0F075 /* ChapterNine.swift */,
+				BF03C3B227EADFAF007AE0F7 /* ChapterTen.swift */,
+				BF03C3B427EAEBFD007AE0F7 /* Color+Extension.swift */,
 			);
 			path = CombineExample;
 			sourceTree = "<group>";
@@ -265,12 +271,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF03C3B327EADFAF007AE0F7 /* ChapterTen.swift in Sources */,
 				BFABC24E27C7198F00439BFF /* CustomSearchBar.swift in Sources */,
 				BF534ACF27C8735C00F6977C /* ViewModelExample.swift in Sources */,
 				BFBEEB2C27E8448300D1D950 /* ChapterEight.swift in Sources */,
 				BF49AB3227E444F40029FD85 /* View+Extension.swift in Sources */,
 				BF8BE55327C49F8F001DB039 /* LoginView.swift in Sources */,
 				BF0F56DD27E2EE9000DD2939 /* KeyboardHandler.swift in Sources */,
+				BF03C3B527EAEBFD007AE0F7 /* Color+Extension.swift in Sources */,
 				BF73F81827C353FA00417F09 /* ContentView.swift in Sources */,
 				BFEB5E2027D0A641003BB4F0 /* chapterOne.swift in Sources */,
 				BF534AD527C879FF00F6977C /* ViewModelExample3.swift in Sources */,
