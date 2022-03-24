@@ -14,6 +14,7 @@
 		BF2F9CAB27E1B13400214732 /* ChapterFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2F9CAA27E1B13400214732 /* ChapterFour.swift */; };
 		BF49AB3027E43F3C0029FD85 /* ChapterSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF49AB2F27E43F3C0029FD85 /* ChapterSeven.swift */; };
 		BF49AB3227E444F40029FD85 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF49AB3127E444F40029FD85 /* View+Extension.swift */; };
+		BF53383927EC2B7E005BFFA9 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF53383827EC2B7E005BFFA9 /* BalanceView.swift */; };
 		BF534ACF27C8735C00F6977C /* ViewModelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534ACE27C8735C00F6977C /* ViewModelExample.swift */; };
 		BF534AD127C8747800F6977C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534AD027C8747700F6977C /* Post.swift */; };
 		BF534AD327C8793E00F6977C /* ViewModelExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF534AD227C8793E00F6977C /* ViewModelExample2.swift */; };
@@ -46,6 +47,7 @@
 		BF2F9CAA27E1B13400214732 /* ChapterFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterFour.swift; sourceTree = "<group>"; };
 		BF49AB2F27E43F3C0029FD85 /* ChapterSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterSeven.swift; sourceTree = "<group>"; };
 		BF49AB3127E444F40029FD85 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		BF53383827EC2B7E005BFFA9 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
 		BF534ACE27C8735C00F6977C /* ViewModelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample.swift; sourceTree = "<group>"; };
 		BF534AD027C8747700F6977C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		BF534AD227C8793E00F6977C /* ViewModelExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExample2.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				BF55F5D827E9934D00D0F075 /* ChapterNine.swift */,
 				BF03C3B227EADFAF007AE0F7 /* ChapterTen.swift */,
 				BF03C3B427EAEBFD007AE0F7 /* Color+Extension.swift */,
+				BF53383827EC2B7E005BFFA9 /* BalanceView.swift */,
 			);
 			path = CombineExample;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				BFEB5E1E27D0A010003BB4F0 /* ProgressView.swift in Sources */,
 				BF534AD327C8793E00F6977C /* ViewModelExample2.swift in Sources */,
 				BF73F81627C353FA00417F09 /* CombineExampleApp.swift in Sources */,
+				BF53383927EC2B7E005BFFA9 /* BalanceView.swift in Sources */,
 				BF7055C327C5F6AD00E753B2 /* CryptoService.swift in Sources */,
 				BF534AD127C8747800F6977C /* Post.swift in Sources */,
 				BF0F56DB27E2EE5B00DD2939 /* ChapterFive.swift in Sources */,

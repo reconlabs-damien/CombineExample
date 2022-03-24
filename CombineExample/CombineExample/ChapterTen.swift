@@ -13,6 +13,7 @@ struct MasterView: View {
             VStack(spacing: 35) {
                 ChapterTen()
                 CardListView()
+                BalanceView()
                 Spacer()
             }.padding(25)
         }
@@ -46,7 +47,7 @@ struct ChapterTen_Previews: PreviewProvider {
 }
 
 
-struct Card {
+struct Card:Hashable {
     let income:Int
     let expenses:Int
     var balance: Int {
@@ -62,6 +63,10 @@ struct Card {
     
     var textColor: Color {
         isSelected ? .white : .black
+    }
+    
+    var incomePercentage: Int {
+        Int(Double(balance) / Double(income) * 100)
     }
 }
 
