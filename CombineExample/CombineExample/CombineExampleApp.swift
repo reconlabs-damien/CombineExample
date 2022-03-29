@@ -14,8 +14,9 @@ struct CombineExampleApp: App {
     
     var body: some Scene {
         WindowGroup {
-            MasterView()
-                .environmentObject(wallet)
+            NavigationView {
+                Chapter11()
+            }.accentColor(.primary)
         }
         
     }

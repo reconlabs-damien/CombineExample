@@ -12,6 +12,7 @@
 		BF0F56DB27E2EE5B00DD2939 /* ChapterFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F56DA27E2EE5B00DD2939 /* ChapterFive.swift */; };
 		BF0F56DD27E2EE9000DD2939 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F56DC27E2EE9000DD2939 /* KeyboardHandler.swift */; };
 		BF2F9CAB27E1B13400214732 /* ChapterFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2F9CAA27E1B13400214732 /* ChapterFour.swift */; };
+		BF33AC2A27F2C4A100C93DA6 /* Chapter11.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33AC2927F2C4A100C93DA6 /* Chapter11.swift */; };
 		BF49AB3027E43F3C0029FD85 /* ChapterSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF49AB2F27E43F3C0029FD85 /* ChapterSeven.swift */; };
 		BF49AB3227E444F40029FD85 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF49AB3127E444F40029FD85 /* View+Extension.swift */; };
 		BF53383927EC2B7E005BFFA9 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF53383827EC2B7E005BFFA9 /* BalanceView.swift */; };
@@ -45,6 +46,7 @@
 		BF0F56DA27E2EE5B00DD2939 /* ChapterFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterFive.swift; sourceTree = "<group>"; };
 		BF0F56DC27E2EE9000DD2939 /* KeyboardHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
 		BF2F9CAA27E1B13400214732 /* ChapterFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterFour.swift; sourceTree = "<group>"; };
+		BF33AC2927F2C4A100C93DA6 /* Chapter11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter11.swift; sourceTree = "<group>"; };
 		BF49AB2F27E43F3C0029FD85 /* ChapterSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterSeven.swift; sourceTree = "<group>"; };
 		BF49AB3127E444F40029FD85 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		BF53383827EC2B7E005BFFA9 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				BF03C3B227EADFAF007AE0F7 /* ChapterTen.swift */,
 				BF03C3B427EAEBFD007AE0F7 /* Color+Extension.swift */,
 				BF53383827EC2B7E005BFFA9 /* BalanceView.swift */,
+				BF33AC2927F2C4A100C93DA6 /* Chapter11.swift */,
 			);
 			path = CombineExample;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF03C3B327EADFAF007AE0F7 /* ChapterTen.swift in Sources */,
+				BF33AC2A27F2C4A100C93DA6 /* Chapter11.swift in Sources */,
 				BFABC24E27C7198F00439BFF /* CustomSearchBar.swift in Sources */,
 				BF534ACF27C8735C00F6977C /* ViewModelExample.swift in Sources */,
 				BFBEEB2C27E8448300D1D950 /* ChapterEight.swift in Sources */,
