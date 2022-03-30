@@ -9,21 +9,66 @@ import SwiftUI
 
 
 struct Chapter11: View {
+    
+    let cards:[Sport] = [
+        .init(title: "Pilates", imageName: "yoga"),
+        .init(title: "Intervals", imageName: "interval"),
+        .init(title: "Yoga", imageName: "pilates"),
+        .init(title: "Run", imageName: "boxing"),
+        .init(title: "Kick Boxing", imageName: "kickboxing"),
+        .init(title: "Boxing", imageName: "boxing"),
+        .init(title: "Morning", imageName: "yoga"),
+        .init(title: "Fitness", imageName: "interval")
+    ]
+    
+    var leftCards:[Sport] {
+        cards.enumerated()
+            .filter { $0.offset % 2 == 0 }
+            .map { $0.element }
+    }
+    var rightCards:[Sport] {
+        cards.enumerated()
+            .filter { $0.offset % 2 != 0 }
+            .map { $0.element }
+    }
+    
+    var visibleLeftCards:[Sport] {
+        if cards.count % 2 != 0, cards.count != 1 {
+            let slice = ArraySlice(leftCards[0...leftCards.count - 1])
+            return Array(slice)
+        } else {
+            return leftCards
+        }
+    }
+    
+    var visibleRightCards:[Sport] {
+        if cards.count % 2 != 0, let lastLeftCard = leftCards.last, cards.count != 1 {
+            return rightCards + [lastLeftCard]
+        } else {
+            return rightCards
+        }
+    }
+    
     var body: some View {
         ScrollView {
             HStack(spacing: 16) {
                 VStack {
-                    ForEach(Array(leftCards.enumerated()), id: \.element) { offset, card in
+                    ForEach(Array(visibleLeftCards.enumerated()), id: \.element) { offset, card in
                         CellView(card: card)
                             .frame(height: offset % 2 == 0 ? 320 : 200)
                     }
+                    Spacer()
                 }
                 
                 VStack {
-                    ForEach(Array(rightCards.enumerated()), id: \.element) { offset, card in
+                    if cards.count == 1 {
+                        RoundedRectangle(cornerRadius: 10).fill(Color.clear)
+                    }
+                    ForEach(Array(visibleRightCards.enumerated()), id: \.element) { offset, card in
                         CellView(card: card)
                             .frame(height: offset % 2 != 0 ? 320 : 200)
                     }
+                    Spacer()
                 }
             }.padding()
         }.navigationTitle("Categories")
@@ -44,19 +89,7 @@ struct Sport: Hashable {
     let imageName: String
 }
 
-let leftCards:[Sport] = [
-    .init(title: "Kick Boxing", imageName: "kickboxing"),
-    .init(title: "Boxing", imageName: "boxing"),
-    .init(title: "Morning", imageName: "yoga"),
-    .init(title: "Fitness", imageName: "interval")
-]
 
-let rightCards:[Sport] = [
-    .init(title: "Pilates", imageName: "yoga"),
-    .init(title: "Intervals", imageName: "interval"),
-    .init(title: "Yoga", imageName: "pilates"),
-    .init(title: "Run", imageName: "boxing")
-]
 
 struct CellView: View {
     
