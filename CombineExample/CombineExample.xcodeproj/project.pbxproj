@@ -13,6 +13,7 @@
 		BF0F56DD27E2EE9000DD2939 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F56DC27E2EE9000DD2939 /* KeyboardHandler.swift */; };
 		BF2F9CAB27E1B13400214732 /* ChapterFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2F9CAA27E1B13400214732 /* ChapterFour.swift */; };
 		BF33AC2A27F2C4A100C93DA6 /* Chapter11.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33AC2927F2C4A100C93DA6 /* Chapter11.swift */; };
+		BF3A236E27F5783C00A9CEE6 /* Chapter12.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A236D27F5783C00A9CEE6 /* Chapter12.swift */; };
 		BF49AB3027E43F3C0029FD85 /* ChapterSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF49AB2F27E43F3C0029FD85 /* ChapterSeven.swift */; };
 		BF49AB3227E444F40029FD85 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF49AB3127E444F40029FD85 /* View+Extension.swift */; };
 		BF53383927EC2B7E005BFFA9 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF53383827EC2B7E005BFFA9 /* BalanceView.swift */; };
@@ -47,6 +48,7 @@
 		BF0F56DC27E2EE9000DD2939 /* KeyboardHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
 		BF2F9CAA27E1B13400214732 /* ChapterFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterFour.swift; sourceTree = "<group>"; };
 		BF33AC2927F2C4A100C93DA6 /* Chapter11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter11.swift; sourceTree = "<group>"; };
+		BF3A236D27F5783C00A9CEE6 /* Chapter12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter12.swift; sourceTree = "<group>"; };
 		BF49AB2F27E43F3C0029FD85 /* ChapterSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterSeven.swift; sourceTree = "<group>"; };
 		BF49AB3127E444F40029FD85 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		BF53383827EC2B7E005BFFA9 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				BFBEEB2B27E8448300D1D950 /* ChapterEight.swift */,
 				BF55F5D827E9934D00D0F075 /* ChapterNine.swift */,
 				BF03C3B227EADFAF007AE0F7 /* ChapterTen.swift */,
+				BF3A236D27F5783C00A9CEE6 /* Chapter12.swift */,
 				BF03C3B427EAEBFD007AE0F7 /* Color+Extension.swift */,
 				BF53383827EC2B7E005BFFA9 /* BalanceView.swift */,
 				BF33AC2927F2C4A100C93DA6 /* Chapter11.swift */,
@@ -303,6 +306,7 @@
 				BFABC24C27C7166800439BFF /* ListExample.swift in Sources */,
 				BF7055C127C5F5B600E753B2 /* CoinList.swift in Sources */,
 				BF2F9CAB27E1B13400214732 /* ChapterFour.swift in Sources */,
+				BF3A236E27F5783C00A9CEE6 /* Chapter12.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
