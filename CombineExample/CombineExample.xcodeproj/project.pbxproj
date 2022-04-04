@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0132C527FABCF200A5EA9C /* Chapter13.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0132C427FABCF200A5EA9C /* Chapter13.swift */; };
 		BF03C3B327EADFAF007AE0F7 /* ChapterTen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03C3B227EADFAF007AE0F7 /* ChapterTen.swift */; };
 		BF03C3B527EAEBFD007AE0F7 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03C3B427EAEBFD007AE0F7 /* Color+Extension.swift */; };
 		BF0F56DB27E2EE5B00DD2939 /* ChapterFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F56DA27E2EE5B00DD2939 /* ChapterFive.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		8113456D74CBF5BF7B5940AD /* Pods-CombineExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineExample.debug.xcconfig"; path = "Target Support Files/Pods-CombineExample/Pods-CombineExample.debug.xcconfig"; sourceTree = "<group>"; };
 		BCCEAA1229E43DE118957722 /* Pods_CombineExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombineExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0132C427FABCF200A5EA9C /* Chapter13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter13.swift; sourceTree = "<group>"; };
 		BF03C3B227EADFAF007AE0F7 /* ChapterTen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterTen.swift; sourceTree = "<group>"; };
 		BF03C3B427EAEBFD007AE0F7 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		BF0F56DA27E2EE5B00DD2939 /* ChapterFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterFive.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				BF03C3B227EADFAF007AE0F7 /* ChapterTen.swift */,
 				BF3A236D27F5783C00A9CEE6 /* Chapter12.swift */,
 				BF03C3B427EAEBFD007AE0F7 /* Color+Extension.swift */,
+				BF0132C427FABCF200A5EA9C /* Chapter13.swift */,
 				BF53383827EC2B7E005BFFA9 /* BalanceView.swift */,
 				BF33AC2927F2C4A100C93DA6 /* Chapter11.swift */,
 			);
@@ -297,6 +300,7 @@
 				BFEB5E1E27D0A010003BB4F0 /* ProgressView.swift in Sources */,
 				BF534AD327C8793E00F6977C /* ViewModelExample2.swift in Sources */,
 				BF73F81627C353FA00417F09 /* CombineExampleApp.swift in Sources */,
+				BF0132C527FABCF200A5EA9C /* Chapter13.swift in Sources */,
 				BF53383927EC2B7E005BFFA9 /* BalanceView.swift in Sources */,
 				BF7055C327C5F6AD00E753B2 /* CryptoService.swift in Sources */,
 				BF534AD127C8747800F6977C /* Post.swift in Sources */,
