@@ -37,6 +37,7 @@
 		BFBF033B27E0875100E47DD4 /* ChapterThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBF033A27E0875100E47DD4 /* ChapterThree.swift */; };
 		BFEB5E1E27D0A010003BB4F0 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEB5E1D27D0A010003BB4F0 /* ProgressView.swift */; };
 		BFEB5E2027D0A641003BB4F0 /* chapterOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEB5E1F27D0A641003BB4F0 /* chapterOne.swift */; };
+		BFFB613627FC0BAA0075A1E3 /* Chapter14.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFB613527FC0BAA0075A1E3 /* Chapter14.swift */; };
 		F5A84D2085BE8B018CEF86C0 /* Pods_CombineExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCEAA1229E43DE118957722 /* Pods_CombineExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 		BFBF033A27E0875100E47DD4 /* ChapterThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterThree.swift; sourceTree = "<group>"; };
 		BFEB5E1D27D0A010003BB4F0 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		BFEB5E1F27D0A641003BB4F0 /* chapterOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chapterOne.swift; sourceTree = "<group>"; };
+		BFFB613527FC0BAA0075A1E3 /* Chapter14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter14.swift; sourceTree = "<group>"; };
 		C528E9C251C5FE92716693E7 /* Pods-CombineExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineExample.release.xcconfig"; path = "Target Support Files/Pods-CombineExample/Pods-CombineExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +153,7 @@
 				BF49AB3127E444F40029FD85 /* View+Extension.swift */,
 				BFBEEB2B27E8448300D1D950 /* ChapterEight.swift */,
 				BF55F5D827E9934D00D0F075 /* ChapterNine.swift */,
+				BFFB613527FC0BAA0075A1E3 /* Chapter14.swift */,
 				BF03C3B227EADFAF007AE0F7 /* ChapterTen.swift */,
 				BF3A236D27F5783C00A9CEE6 /* Chapter12.swift */,
 				BF03C3B427EAEBFD007AE0F7 /* Color+Extension.swift */,
@@ -304,6 +307,7 @@
 				BF53383927EC2B7E005BFFA9 /* BalanceView.swift in Sources */,
 				BF7055C327C5F6AD00E753B2 /* CryptoService.swift in Sources */,
 				BF534AD127C8747800F6977C /* Post.swift in Sources */,
+				BFFB613627FC0BAA0075A1E3 /* Chapter14.swift in Sources */,
 				BF0F56DB27E2EE5B00DD2939 /* ChapterFive.swift in Sources */,
 				BFBF033B27E0875100E47DD4 /* ChapterThree.swift in Sources */,
 				BF49AB3027E43F3C0029FD85 /* ChapterSeven.swift in Sources */,
