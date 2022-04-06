@@ -10,6 +10,8 @@ import UserNotifications
 
 struct Chapter14: View {
     @StateObject private var notificationManager = NotificationManager()
+    @State private var isCreatePresented = false
+    
     
     var body: some View {
         List(notificationManager.notifications, id:\.identifier) { notification in
@@ -28,6 +30,18 @@ struct Chapter14: View {
             default:
                 break
             }
+        }
+        .navigationBarItems(trailing: Button {
+            isCreatePresented = true
+        } label: {
+            Image(systemName: "plus.circle")
+                .imageScale(.large)
+        })
+        .sheet(isPresented: $isCreatePresented) {
+            NavigationView {
+                CreateNotificationView(notificationManager: notificationManager, isPresented: $isCreatePresented)
+            }
+            .accentColor(.primary)
         }
     }
 }
@@ -68,5 +82,81 @@ final class NotificationManager: ObservableObject {
                 self.notifications = notifications
             }
         }
+    }
+    
+    func createLocalNotification(title: String, hour: Int, min: Int, completion: @escaping (Error?) -> Void) {
+        var dateComponents = DateComponents()
+        dateComponents.hour = hour
+        dateComponents.minute = min
+        
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+        
+        let notificationContent = UNMutableNotificationContent()
+        notificationContent.title = title
+        notificationContent.sound = .default
+        
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: notificationContent, trigger: trigger)
+        
+        UNUserNotificationCenter.current().add(request, withCompletionHandler: completion)
+    }
+}
+
+struct CreateNotificationView: View {
+    @ObservedObject var notificationManager = NotificationManager()
+    @Binding var isPresented: Bool
+    @State private var title = ""
+    @State private var date = Date()
+    
+    var body: some View {
+        List {
+            Section {
+                VStack(spacing: 16) {
+                    HStack {
+                        TextField("Notification Title", text: $title)
+                        Spacer()
+                        DatePicker("", selection: $date, displayedComponents: [.hourAndMinute])
+                    }
+                    .padding(.vertical, 8)
+                    .padding(.horizontal, 12)
+                    .background(Color.white)
+                    .cornerRadius(5)
+                    
+                    Button {
+                        let dateComponents = Calendar.current.dateComponents([.hour, .minute], from: date)
+                        
+                        guard let hour = dateComponents.hour,
+                              let min = dateComponents.minute else { return }
+                        
+                        notificationManager.createLocalNotification(title: title, hour: hour, min: min) { error in
+                            if error == nil {
+                                DispatchQueue.main.async {
+                                    self.isPresented = false
+                                }
+                            }
+                        }
+                    } label: {
+                        Text("Create")
+                            .fontWeight(.semibold)
+                            .frame(maxWidth: .infinity)
+                    }
+                    .padding()
+                    .background(Color(.systemGray5))
+                    .cornerRadius(5)
+                    .buttonStyle(PlainButtonStyle())
+                }
+                .listRowBackground(Color(.systemGroupedBackground))
+            }
+        }
+        .listStyle(InsetGroupedListStyle())
+        .onDisappear(perform: {
+            notificationManager.reloadLocalNotifications()
+        })
+        .navigationTitle("Create")
+        .navigationBarItems(trailing: Button {
+            isPresented = false
+        } label: {
+            Image(systemName: "xmark")
+                .imageScale(.large)
+        })
     }
 }
